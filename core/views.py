@@ -46,10 +46,10 @@ def index(request):
 
     def exportMelody(melody):
 
-        oldSongs = glob.glob("crowdtunes/staticfiles/tuneFiles/*.wav")
+        oldSongs = glob.glob("core/static/tuneFiles/*.wav")
         songsNum = len(oldSongs)
         songcount = songsNum + 1
-        melody.export("crowdtunes/staticfiles/tuneFiles/tune%d.wav" % songcount, format="wav")
+        melody.export("core/static/tuneFiles/tune%d.wav" % songcount, format="wav")
 
     # Create your views here.
 
