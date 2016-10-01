@@ -7,24 +7,25 @@ from pydub import AudioSegment
 import pydub
 # Create your views here.
 def index(request):
-    a = AudioSegment.from_wav("notes/A.wav")
-    b = AudioSegment.from_wav("notes/B.wav")
-    c = AudioSegment.from_wav("notes/C.wav")
-    d = AudioSegment.from_wav("notes/D.wav")
-    e = AudioSegment.from_wav("notes/E.wav")
-    f = AudioSegment.from_wav("notes/F.wav")
-    g = AudioSegment.from_wav("notes/G.wav")
-    asharp = AudioSegment.from_wav("notes/Asharp.wav")  # Bb
-    dsharp = AudioSegment.from_wav("notes/Dsharp.wav")  # Eb
-    csharp = AudioSegment.from_wav("notes/Csharp.wav")
-    fsharp = AudioSegment.from_wav("notes/Fsharp.wav")
-    gsharp = AudioSegment.from_wav("notes/Gsharp.wav")
+    a = AudioSegment.from_wav("core/notes/A.wav")
+    b = AudioSegment.from_wav("core/notes/B.wav")
+    c = AudioSegment.from_wav("core/notes/C.wav")
+    d = AudioSegment.from_wav("core/notes/D.wav")
+    e = AudioSegment.from_wav("core/notes/E.wav")
+    f = AudioSegment.from_wav("core/notes/F.wav")
+    g = AudioSegment.from_wav("core/notes/G.wav")
+    asharp = AudioSegment.from_wav("core/notes/Asharp.wav")  # Bb
+    dsharp = AudioSegment.from_wav("core/notes/Dsharp.wav")  # Eb
+    csharp = AudioSegment.from_wav("core/notes/Csharp.wav")
+    fsharp = AudioSegment.from_wav("core/notes/Fsharp.wav")
+    gsharp = AudioSegment.from_wav("core/notes/Gsharp.wav")
     notesString = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'Csharp', 'Dsharp', 'Fsharp', 'Gsharp', 'Asharp']
     notes = [a, b, c, d, e, f, g, csharp, dsharp, fsharp, gsharp, asharp]
     possTimes = [125, 250, 500, 750, 1000]
 
     def makeMelody(numNotes):
-        melody, melodyString = []
+        melody = []
+        melodyString = []
         idx = np.random.choice(np.arange(notes), numNotes, replace=True)
         melody = notes[idx]
         melodyString = notesString[idx]
