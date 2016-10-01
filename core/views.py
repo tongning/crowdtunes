@@ -1,11 +1,25 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 import os
 import numpy as np
 import glob
 import random
+
+import os, tempfile, zipfile
 from pydub import AudioSegment
+from django.utils.encoding import smart_str
 import pydub
 # Create your views here.
+
+def download(request, filename):
+    file_path = 'core/static/tuneFiles/'+filename+'.wav'
+    if os.path.exists(file_path):
+        with open(file_path, 'rb') as fh:
+            response = HttpResponse(fh.read(), content_type="application/vnd.ms-excel")
+            response['Content-Disposition'] = 'inline; filename=' + os.path.basename(file_path)
+            return response
+
+
+
 def index(request):
     a = AudioSegment.from_wav("core/notes/A.wav")
     b = AudioSegment.from_wav("core/notes/B.wav")
@@ -22,6 +36,7 @@ def index(request):
     notesString = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'Csharp', 'Dsharp', 'Fsharp', 'Gsharp', 'Asharp']
     notes = [a, b, c, d, e, f, g, csharp, dsharp, fsharp, gsharp, asharp]
     possTimes = [125, 250, 500, 750, 1000]
+
 
     def makeMelody(numNotes):
         #idx = np.random.choice(np.arange(len(notes)), numNotes, replace=True)
@@ -55,6 +70,7 @@ def index(request):
 
     def exportMelody(melody,fileName):
         melody.export("core/static/tuneFiles/%s" %fileName, format="wav")
+        melody.export("crowdtunes/staticfiles/%s" % fileName, format="wav")
 
     # Create your views here.
     fileName = makeFileName()
@@ -63,6 +79,6 @@ def index(request):
     times = makeTimes(numNotes)
     timedMelody = makeTimedMelody(melodyNotes, times)
     exportMelody(timedMelody,fileName)
-
-    return render(request, 'index.html', {'file_name':fileName})
+    fileName = fileName[:-4]
+    return render(request, 'index.html', {'file_name':fileName, 'string':melodyString})
 
