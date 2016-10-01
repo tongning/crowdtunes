@@ -24,12 +24,13 @@ def index(request):
     possTimes = [125, 250, 500, 750, 1000]
 
     def makeMelody(numNotes):
+        #idx = np.random.choice(np.arange(len(notes)), numNotes, replace=True)
+        #melody = notes[idx]
+        #melodyString = notesString[idx]
         melody = []
-        melodyString = []
-        idx = np.random.choice(np.arange(notes), numNotes, replace=True)
-        melody = notes[idx]
-        melodyString = notesString[idx]
-        return melody, melodyString
+        for x in range(0,numNotes):
+            melody.append(random.choice(notes))
+        return melody#, melodyString
 
     def makeTimes(numNotes):
         times = []
@@ -45,15 +46,15 @@ def index(request):
 
     def exportMelody(melody):
 
-        oldSongs = glob.glob("../crowdtunes/staticfiles/tuneFiles/*.wav")
+        oldSongs = glob.glob("crowdtunes/staticfiles/tuneFiles/*.wav")
         songsNum = len(oldSongs)
         songcount = songsNum + 1
-        melody.export("../crowdtunes/staticfiles/tuneFiles/tune%d.wav" % songcount, format="wav")
+        melody.export("crowdtunes/staticfiles/tuneFiles/tune%d.wav" % songcount, format="wav")
 
     # Create your views here.
 
     numNotes = 8
-    melodyNotes, melodyString = makeMelody(numNotes)
+    melodyNotes = makeMelody(numNotes)
     times = makeTimes(numNotes)
     timedMelody = makeTimedMelody(melodyNotes, times)
     exportMelody(timedMelody)
