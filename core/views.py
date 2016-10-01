@@ -30,7 +30,7 @@ def index(request):
         melody = []
         melodyString = []
         for x in range(0,numNotes):
-            choice = random.randint(0, len(notesString))
+            choice = random.randint(0, len(notesString)-1)
             melody.append(notes[choice])
             melodyString.append(notesString[choice])
         return melody, melodyString
