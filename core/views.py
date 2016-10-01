@@ -51,15 +51,15 @@ def index(request):
         oldSongs = glob.glob("core/static/tuneFiles/*.wav")
         songsNum = len(oldSongs)
         songcount = songsNum + 1
-        return "tune%d.wav" % songcount
+        return "tune%d.wav" %songcount
 
     def exportMelody(melody,fileName):
-        melody.export("core/static/tuneFiles/%s" % fileName, format="wav")
+        melody.export("core/static/tuneFiles/%s" %fileName, format="wav")
 
     # Create your views here.
     fileName = makeFileName()
     numNotes = 8
-    melodyNotes = makeMelody(numNotes)
+    melodyNotes,melodyString = makeMelody(numNotes)
     times = makeTimes(numNotes)
     timedMelody = makeTimedMelody(melodyNotes, times)
     exportMelody(timedMelody,fileName)
