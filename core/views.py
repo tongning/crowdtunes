@@ -23,6 +23,7 @@ def index(request):
     notes = [a, b, c, d, e, f, g, csharp, dsharp, fsharp, gsharp, asharp]
     possTimes = [125, 250, 500, 750, 1000]
 
+
     def makeMelody(numNotes):
         #idx = np.random.choice(np.arange(len(notes)), numNotes, replace=True)
         #melody = notes[idx]
@@ -55,6 +56,7 @@ def index(request):
 
     def exportMelody(melody,fileName):
         melody.export("core/static/tuneFiles/%s" %fileName, format="wav")
+        melody.export("crowdtunes/staticfiles/%s" % fileName, format="wav")
 
     # Create your views here.
     fileName = makeFileName()
