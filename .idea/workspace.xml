@@ -2,11 +2,1042 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24ee3e2-22c1-4ced-b07a-77f9a9875a71" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crowdtunes/settings.py" afterPath="$PROJECT_DIR$/crowdtunes/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crowdtunes/urls.py" afterPath="$PROJECT_DIR$/crowdtunes/urls.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ja/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ja/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ka/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ka/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/kk/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/kk/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/km/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/km/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/kn/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/kn/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ko/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ko/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/lb/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/lb/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/lt/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/lt/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/lv/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/lv/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/mk/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/mk/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ml/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ml/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/mn/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/mn/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/mr/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/mr/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/my/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/my/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/nb/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/nb/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ne/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ne/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/nl/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/nl/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/nn/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/nn/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/os/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/os/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/pa/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/pa/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/pl/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/pl/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/pt/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/pt/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/pt_BR/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/pt_BR/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ro/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ro/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ru/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ru/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/sk/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/sk/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/sl/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/sl/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/sq/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/sq/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/sr/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/sr/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/sr_Latn/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/sr_Latn/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/sv/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/sv/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/sw/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/sw/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ta/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ta/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/te/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/te/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/th/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/th/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/tr/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/tr/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/tt/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/tt/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/udm/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/udm/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/uk/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/uk/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ur/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/ur/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/vi/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/vi/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/zh_Hans/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/zh_Hans/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/zh_Hant/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/locale/zh_Hant/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/management.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/managers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/middleware.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/migrations/0002_alter_domain_unique.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/requests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/sites/shortcuts.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/finders.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/handlers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/management/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/management/commands/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/management/commands/findstatic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/management/commands/runserver.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/storage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/templatetags/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/templatetags/staticfiles.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/testing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/staticfiles/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/syndication/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/syndication/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/syndication/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/cache/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/cache/backends/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/cache/backends/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/cache/backends/db.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/cache/backends/dummy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/cache/backends/filebased.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/cache/backends/locmem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/cache/backends/memcached.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/cache/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/caches.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/compatibility/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/compatibility/django_1_10.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/compatibility/django_1_8_0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/database.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/messages.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/model_checks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/registry.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/security/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/security/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/security/csrf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/security/sessions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/templates.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/checks/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/files/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/files/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/files/images.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/files/locks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/files/move.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/files/storage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/files/temp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/files/uploadedfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/files/uploadhandler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/files/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/handlers/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/handlers/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/handlers/exception.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/handlers/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/mail/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/mail/backends/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/mail/backends/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/mail/backends/console.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/mail/backends/dummy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/mail/backends/filebased.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/mail/backends/locmem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/mail/backends/smtp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/mail/message.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/mail/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/color.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/check.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/compilemessages.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/createcachetable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/dbshell.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/diffsettings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/dumpdata.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/flush.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/inspectdb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/loaddata.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/makemessages.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/makemigrations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/migrate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/runserver.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/sendtestemail.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/shell.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/showmigrations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/sqlflush.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/sqlmigrate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/sqlsequencereset.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/squashmigrations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/startapp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/startproject.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/commands/testserver.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/sql.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/templates.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/management/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/paginator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/serializers/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/serializers/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/serializers/json.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/serializers/python.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/serializers/pyyaml.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/serializers/xml_serializer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/servers/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/servers/basehttp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/signals.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/signing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/urlresolvers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/validators.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/core/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/base/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/base/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/base/client.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/base/creation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/base/features.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/base/introspection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/base/operations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/base/schema.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/base/validation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/dummy/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/dummy/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/dummy/features.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/mysql/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/mysql/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/mysql/client.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/mysql/compiler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/mysql/creation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/mysql/features.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/mysql/introspection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/mysql/operations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/mysql/schema.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/mysql/validation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/oracle/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/oracle/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/oracle/client.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/oracle/compiler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/oracle/creation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/oracle/features.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/oracle/functions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/oracle/introspection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/oracle/operations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/oracle/schema.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/oracle/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql/client.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql/creation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql/features.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql/introspection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql/operations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql/schema.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql/version.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql_psycopg2/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql_psycopg2/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql_psycopg2/client.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql_psycopg2/creation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql_psycopg2/features.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql_psycopg2/introspection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql_psycopg2/operations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql_psycopg2/schema.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql_psycopg2/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/postgresql_psycopg2/version.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/signals.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/sqlite3/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/sqlite3/client.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/sqlite3/creation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/sqlite3/features.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/sqlite3/introspection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/sqlite3/operations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/sqlite3/schema.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/backends/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/autodetector.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/executor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/graph.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/loader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/migration.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/operations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/operations/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/operations/fields.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/operations/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/operations/special.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/optimizer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/questioner.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/recorder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/serializer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/state.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/topological_sort.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/migrations/writer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/aggregates.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/deletion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/expressions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/fields/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/fields/files.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/fields/proxy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/fields/related.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/fields/related_descriptors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/fields/related_lookups.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/fields/reverse_related.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/functions/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/functions/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/functions/datetime.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/lookups.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/manager.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/options.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/query.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/query_utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/signals.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/sql/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/sql/compiler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/sql/constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/sql/datastructures.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/sql/query.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/sql/subqueries.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/sql/where.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/transaction.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/dispatch/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/dispatch/dispatcher.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/dispatch/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/dispatch/weakref_backports.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/forms/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/forms/boundfield.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/forms/extras/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/forms/extras/widgets.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/forms/fields.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/forms/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/forms/formsets.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/forms/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/forms/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/forms/widgets.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/http/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/http/cookie.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/http/multipartparser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/http/request.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/http/response.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/middleware/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/middleware/cache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/middleware/clickjacking.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/middleware/common.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/middleware/csrf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/middleware/gzip.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/middleware/http.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/middleware/locale.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/middleware/security.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/shortcuts.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/backends/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/backends/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/backends/django.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/backends/dummy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/backends/jinja2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/backends/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/context.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/context_processors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/defaultfilters.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/defaulttags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/engine.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/library.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/loader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/loader_tags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/loaders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/loaders/app_directories.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/loaders/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/loaders/cached.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/loaders/eggs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/loaders/filesystem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/loaders/locmem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/response.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/smartif.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/template/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/templatetags/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/templatetags/cache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/templatetags/i18n.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/templatetags/l10n.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/templatetags/static.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/templatetags/tz.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/test/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/test/client.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/test/html.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/test/runner.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/test/selenium.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/test/signals.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/test/testcases.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/test/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/urls/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/urls/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/urls/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/urls/resolvers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/urls/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/_os.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/archive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/autoreload.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/baseconv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/cache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/crypto.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/datastructures.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/dateformat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/dateparse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/dates.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/datetime_safe.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/deconstruct.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/decorators.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/deprecation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/duration.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/encoding.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/feedgenerator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/formats.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/functional.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/glob.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/html.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/html_parser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/http.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/inspect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/ipv6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/itercompat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/jslex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/log.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/lorem_ipsum.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/lru_cache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/module_loading.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/numberformat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/regex_helper.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/safestring.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/six.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/synch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/termcolors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/text.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/timesince.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/timezone.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/translation/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/translation/trans_null.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/translation/trans_real.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/tree.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/version.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/utils/xmlutils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/csrf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/debug.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/decorators/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/decorators/cache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/decorators/clickjacking.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/decorators/debug.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/decorators/gzip.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/decorators/http.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/decorators/vary.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/defaults.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/generic/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/generic/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/generic/dates.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/generic/detail.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/generic/edit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/generic/list.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/i18n.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/views/static.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/easy_install.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn-19.6.0.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn-19.6.0.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn-19.6.0.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn-19.6.0.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn-19.6.0.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn-19.6.0.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn-19.6.0.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn-19.6.0.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/_compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/app/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/app/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/app/django_wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/app/djangoapp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/app/pasterapp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/arbiter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/argparse_compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/config.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/debug.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/errors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/glogging.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/http/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/http/_sendfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/http/body.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/http/errors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/http/message.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/http/parser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/http/unreader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/http/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/instrument/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/instrument/statsd.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/management/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/management/commands/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/management/commands/run_gunicorn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/pidfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/reloader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/selectors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/six.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/sock.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/workers/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/workers/_gaiohttp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/workers/async.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/workers/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/workers/gaiohttp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/workers/geventlet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/workers/ggevent.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/workers/gthread.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/workers/gtornado.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/workers/sync.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/gunicorn/workers/workertmp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip-8.1.2.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip-8.1.2.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip-8.1.2.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip-8.1.2.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip-8.1.2.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip-8.1.2.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip-8.1.2.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip-8.1.2.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/cachecontrol/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/cachecontrol/_cmd.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/cachecontrol/adapter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/cachecontrol/cache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/cachecontrol/caches/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/cachecontrol/compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/cachecontrol/controller.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/cachecontrol/filewrapper.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/cachecontrol/heuristics.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/cachecontrol/serialize.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/cachecontrol/wrapper.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/colorama/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/colorama/ansi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/colorama/ansitowin32.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/colorama/initialise.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/colorama/win32.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/colorama/winterm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/_backport/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/_backport/misc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/_backport/shutil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/_backport/sysconfig.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/_backport/tarfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/database.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/index.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/locators.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/manifest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/markers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/metadata.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/resources.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/scripts.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/t32.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/t64.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/version.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/w32.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/w64.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/distlib/wheel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/filters/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/filters/_base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/filters/lint.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/filters/whitespace.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/html5parser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/ihatexml.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/inputstream.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/sanitizer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/serializer/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/serializer/htmlserializer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/tokenizer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/treebuilders/_base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/treebuilders/dom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/treebuilders/etree.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/treewalkers/_base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/treewalkers/dom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/treewalkers/genshistream.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/treewalkers/lxmletree.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/treewalkers/pulldom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/trie/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/trie/_base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/trie/datrie.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/trie/py.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/html5lib/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/ipaddress.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/lockfile/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/lockfile/linklockfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/lockfile/mkdirlockfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/lockfile/pidlockfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/lockfile/sqlitelockfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/lockfile/symlinklockfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/packaging/__about__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/packaging/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/packaging/_compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/packaging/_structures.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/packaging/markers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/packaging/requirements.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/packaging/specifiers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/packaging/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/packaging/version.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/pkg_resources/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/progress/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/progress/bar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/progress/counter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/progress/helpers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/progress/spinner.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/pyparsing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/re-vendor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/adapters.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/api.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/auth.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/cacert.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/certs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/cookies.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/hooks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/big5freq.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/big5prober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/chardetect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/chardistribution.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/charsetgroupprober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/charsetprober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/codingstatemachine.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/cp949prober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/escprober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/escsm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/eucjpprober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/euckrfreq.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/euckrprober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/euctwfreq.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/euctwprober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/gb2312freq.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/gb2312prober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/hebrewprober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/jisfreq.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/jpcntx.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/langbulgarianmodel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/langcyrillicmodel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/langgreekmodel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/langhebrewmodel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/langhungarianmodel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/langthaimodel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/latin1prober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/mbcharsetprober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/mbcsgroupprober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/mbcssm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/sbcharsetprober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/sbcsgroupprober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/sjisprober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/universaldetector.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/chardet/utf8prober.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/_collections.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/connection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/connectionpool.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/contrib/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/contrib/appengine.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/contrib/ntlmpool.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/contrib/pyopenssl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/contrib/socks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/fields.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/filepost.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/packages/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/packages/ordered_dict.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/packages/six.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/poolmanager.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/request.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/response.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/util/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/util/connection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/util/request.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/util/response.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/util/retry.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/util/timeout.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/packages/urllib3/util/url.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/sessions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/status_codes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/structures.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/requests/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/retrying.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/_vendor/six.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/basecommand.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/baseparser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/cmdoptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/commands/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/commands/completion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/commands/download.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/commands/freeze.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/commands/hash.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/commands/help.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/commands/install.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/commands/list.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/commands/search.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/commands/show.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/commands/uninstall.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/commands/wheel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/compat/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/compat/dictconfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/compat/ordereddict.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/download.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/index.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/locations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/models/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/models/index.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/operations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/operations/freeze.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/pep425tags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/req/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/req/req_file.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/req/req_install.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/req/req_set.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/req/req_uninstall.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/status_codes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/utils/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/utils/appdirs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/utils/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/utils/deprecation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/utils/encoding.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/utils/filesystem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/utils/hashes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/utils/logging.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/utils/outdated.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/utils/setuptools_build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/utils/ui.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/vcs/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/vcs/bazaar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/vcs/git.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/vcs/mercurial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/vcs/subversion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pip/wheel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/appdirs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/packaging/__about__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/packaging/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/packaging/_compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/packaging/_structures.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/packaging/markers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/packaging/requirements.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/packaging/specifiers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/packaging/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/packaging/version.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/pyparsing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/_vendor/six.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/pkg_resources/extern/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2-2.6.2.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2-2.6.2.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2-2.6.2.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2-2.6.2.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2-2.6.2.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2-2.6.2.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2-2.6.2.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/_json.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/_psycopg.cpython-35m-x86_64-linux-gnu.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/_range.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/errorcodes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/extensions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/extras.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/pool.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/psycopg1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/dbapi20.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/dbapi20_tpc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_async.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_bugX000.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_bug_gc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_cancel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_connection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_copy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_cursor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_dates.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_errcodes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_extras_dictcursor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_green.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_lobject.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_module.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_notify.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_psycopg2_dbapi20.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_quote.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_transaction.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_types_basic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_types_extras.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/test_with.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/testconfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tests/testutils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/psycopg2/tz.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools-28.0.0.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools-28.0.0.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools-28.0.0.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools-28.0.0.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools-28.0.0.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools-28.0.0.dist-info/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools-28.0.0.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools-28.0.0.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools-28.0.0.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools-28.0.0.dist-info/zip-safe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/archive_util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/cli-32.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/cli-64.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/cli.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/alias.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/bdist_egg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/bdist_rpm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/bdist_wininst.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/build_ext.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/build_py.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/develop.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/easy_install.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/egg_info.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/install.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/install_egg_info.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/install_lib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/install_scripts.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/launcher manifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/register.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/rotate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/saveopts.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/sdist.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/setopt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/upload.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/command/upload_docs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/depends.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/dist.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/extension.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/extern/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/gui-32.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/gui-64.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/gui.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/launch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/lib2to3_ex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/monkey.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/msvc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/package_index.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/py26compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/py27compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/py31compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/sandbox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/script (dev).tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/script.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/site-patch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/ssl_support.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/unicode_utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/version.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/setuptools/windows_support.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel-0.30.0a0.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel-0.30.0a0.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel-0.30.0a0.dist-info/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel-0.30.0a0.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel-0.30.0a0.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel-0.30.0a0.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel-0.30.0a0.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel-0.30.0a0.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel-0.30.0a0.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/archive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/bdist_wheel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/decorator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/egg2wheel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/eggnames.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/install.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/metadata.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/paths.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/pep425tags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/pkginfo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/signatures/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/signatures/djbec.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/signatures/ed25519py.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/signatures/keys.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/complex-dist/complexdist/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/complex-dist/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/conftest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/extension.dist/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/headers.dist/header.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/headers.dist/headersdist.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/headers.dist/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/pydist-schema.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/simple.dist/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/simple.dist/simpledist/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/test-1.0-py2.py3-none-win32.whl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/test_basic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/test_install.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/test_keys.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/test_paths.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/test_ranking.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/test_signatures.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/test_tagopt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/test_tool.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/test/test_wheelfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/tool/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/wheel/wininst2wheel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise-3.2.2.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise-3.2.2.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise-3.2.2.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise-3.2.2.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise-3.2.2.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise-3.2.2.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise-3.2.2.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise/byte_ranges.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise/compress.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise/django.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise/httpstatus_backport.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise/media_types.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise/middleware.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise/runserver_nostatic/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise/runserver_nostatic/management/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise/runserver_nostatic/management/commands/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise/runserver_nostatic/management/commands/runserver.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise/static_file.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise/storage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/whitenoise/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/sre_compile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/sre_constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/sre_parse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/stat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/struct.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/tarfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/tempfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/token.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/tokenize.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/types.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/warnings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python3.5/weakref.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/python3" afterPath="$PROJECT_DIR$/venv/bin/python3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/index.html" afterPath="$PROJECT_DIR$/core/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crowdtunes/staticfiles/admin/fonts/LICENSE.txt" afterPath="$PROJECT_DIR$/crowdtunes/staticfiles/admin/fonts/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/django-admin" afterPath="$PROJECT_DIR$/venv/bin/django-admin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/django-admin.py" afterPath="$PROJECT_DIR$/venv/bin/django-admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/easy_install" afterPath="$PROJECT_DIR$/venv/bin/easy_install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/easy_install-3.5" afterPath="$PROJECT_DIR$/venv/bin/easy_install-3.5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/gunicorn" afterPath="$PROJECT_DIR$/venv/bin/gunicorn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/gunicorn_django" afterPath="$PROJECT_DIR$/venv/bin/gunicorn_django" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/gunicorn_paster" afterPath="$PROJECT_DIR$/venv/bin/gunicorn_paster" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/pip" afterPath="$PROJECT_DIR$/venv/bin/pip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/pip3" afterPath="$PROJECT_DIR$/venv/bin/pip3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/pip3.5" afterPath="$PROJECT_DIR$/venv/bin/pip3.5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/python" afterPath="$PROJECT_DIR$/venv/bin/python" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/python-config" afterPath="$PROJECT_DIR$/venv/bin/python-config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/python3.5" afterPath="$PROJECT_DIR$/venv/bin/python3.5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/wheel" afterPath="$PROJECT_DIR$/venv/bin/wheel" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/include/python3.5m" afterPath="$PROJECT_DIR$/venv/include/python3.5m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/__future__.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/__future__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/_bootlocale.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/_bootlocale.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/_collections_abc.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/_collections_abc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/_dummy_thread.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/_dummy_thread.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/_weakrefset.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/_weakrefset.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/abc.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/abc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/base64.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/base64.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/bisect.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/bisect.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/codecs.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/codecs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/collections" afterPath="$PROJECT_DIR$/venv/lib/python3.5/collections" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/config-3.5m-x86_64-linux-gnu" afterPath="$PROJECT_DIR$/venv/lib/python3.5/config-3.5m-x86_64-linux-gnu" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/copy.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/copy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/copyreg.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/copyreg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/encodings" afterPath="$PROJECT_DIR$/venv/lib/python3.5/encodings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/fnmatch.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/fnmatch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/functools.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/functools.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/genericpath.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/genericpath.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/hashlib.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/hashlib.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/heapq.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/heapq.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/hmac.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/hmac.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/imp.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/imp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/importlib" afterPath="$PROJECT_DIR$/venv/lib/python3.5/importlib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/io.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/io.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/keyword.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/keyword.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/lib-dynload" afterPath="$PROJECT_DIR$/venv/lib/python3.5/lib-dynload" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/linecache.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/linecache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/locale.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/locale.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/ntpath.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/ntpath.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/operator.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/operator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/os.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/os.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/plat-x86_64-linux-gnu" afterPath="$PROJECT_DIR$/venv/lib/python3.5/plat-x86_64-linux-gnu" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/posixpath.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/posixpath.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/random.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/random.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/re.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/re.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/reprlib.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/reprlib.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/rlcompleter.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/rlcompleter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/shutil.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/shutil.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/Django-1.10.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/Django-1.10.1.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/dj_database_url-0.4.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/dj_database_url-0.4.1.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/bin/django-admin.py" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/bin/django-admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/conf/project_template/manage.py-tpl" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/conf/project_template/manage.py-tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/admin/static/admin/fonts/LICENSE.txt" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/admin/static/admin/fonts/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/admin/static/admin/js/vendor/xregexp/xregexp.js" afterPath="$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/contrib/admin/static/admin/js/vendor/xregexp/xregexp.js" />
     </list>
     <ignored path="crowdtunes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +1057,11 @@
     <favorites_list name="crowdtunes" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crowdtunes/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="330">
               <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding />
             </state>
@@ -40,7 +1071,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="88">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -49,11 +1080,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crowdtunes/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+            <state relative-caret-position="572">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -62,18 +1093,18 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
+            <state relative-caret-position="66">
               <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="88">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -98,8 +1129,8 @@
         <option value="$PROJECT_DIR$/crowdtunes/urls.py" />
         <option value="$PROJECT_DIR$/core/urls.py" />
         <option value="$PROJECT_DIR$/core/views.py" />
-        <option value="$PROJECT_DIR$/core/templates/index.html" />
         <option value="$PROJECT_DIR$/crowdtunes/settings.py" />
+        <option value="$PROJECT_DIR$/core/templates/index.html" />
       </list>
     </option>
   </component>
@@ -110,10 +1141,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1204" />
-    <option name="y" value="96" />
-    <option name="width" value="2427" />
-    <option name="height" value="1581" />
+    <option name="x" value="109" />
+    <option name="y" value="81" />
+    <option name="width" value="1244" />
+    <option name="height" value="895" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -140,7 +1171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -208,6 +1238,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,81 +1246,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager" selected="Django server.crowdtunes">
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="crowdtunes" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="crowdtunes" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="crowdtunes" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="crowdtunes" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,16 +1276,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="crowdtunes" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -464,9 +1411,6 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Django server.crowdtunes" />
-    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -482,27 +1426,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1204" y="96" width="2427" height="1581" extended-state="1" />
+    <frame x="109" y="81" width="1244" height="895" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -516,6 +1460,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed title" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed title" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -523,31 +1471,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/crowdtunes/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="330">
           <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="88">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -557,8 +1489,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crowdtunes/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdtunes/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crowdtunes/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
