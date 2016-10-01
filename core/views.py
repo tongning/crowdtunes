@@ -28,9 +28,12 @@ def index(request):
         #melody = notes[idx]
         #melodyString = notesString[idx]
         melody = []
+        melodyString = []
         for x in range(0,numNotes):
-            melody.append(random.choice(notes))
-        return melody#, melodyString
+            choice = random.randint(0, len(notesString))
+            melody.append(notes[choice])
+            melodyString.append(notesString[choice])
+        return melody, melodyString
 
     def makeTimes(numNotes):
         times = []
