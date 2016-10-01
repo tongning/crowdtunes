@@ -11,6 +11,14 @@ import pydub
 # Create your views here.
 from core.models import Song
 
+def score(request):
+    if request.method == 'POST':
+        form = ScoreForm(request.POST)
+        vote = Vote()
+        return render(request, 'gameplatform/message.html', {
+            'message': account_create_successful
+        })
+
 def download(request, filename):
     file_path = 'core/static/tuneFiles/'+filename+'.wav'
     if os.path.exists(file_path):
