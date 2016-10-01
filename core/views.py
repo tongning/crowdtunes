@@ -80,5 +80,5 @@ def index(request):
     timedMelody = makeTimedMelody(melodyNotes, times)
     exportMelody(timedMelody,fileName)
     fileName = fileName[:-4]
-    return render(request, 'index.html', {'file_name':fileName})
+    return render(request, 'index.html', {'file_name':fileName, 'string':melodyString})
 
