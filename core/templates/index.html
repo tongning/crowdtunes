@@ -12,6 +12,11 @@
     <hr>
 
     <p>Here is your song: <a href="/download/{{ file_name }}">Click</a></p>
+    <audio controls autoplay>
+        <source src="/download/{{ file_name }}" type="audio/wav">
+
+        Your browser does not support the audio element.
+    </audio>
     <p>The string representing this melody is: {{ string }}</p>
 
    <ul>
