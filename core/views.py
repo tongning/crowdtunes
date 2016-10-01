@@ -3,12 +3,13 @@ import os
 import numpy as np
 import glob
 import random
-
+from django.db import models
 import os, tempfile, zipfile
 from pydub import AudioSegment
 from django.utils.encoding import smart_str
 import pydub
 # Create your views here.
+from core.models import Song
 
 def download(request, filename):
     file_path = 'core/static/tuneFiles/'+filename+'.wav'
@@ -80,5 +81,9 @@ def index(request):
     timedMelody = makeTimedMelody(melodyNotes, times)
     exportMelody(timedMelody,fileName)
     fileName = fileName[:-4]
-    return render(request, 'index.html', {'file_name':fileName, 'string':melodyString})
+
+    # Create new song object and save in database
+    newsong = Song.objects.create_song(fileName,melodyString)
+    newsong.save()
+    return render(request, 'index.html', {'file_name':fileName, 'string':str(melodyString)})
 
