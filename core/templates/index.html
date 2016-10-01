@@ -12,5 +12,17 @@
     <hr>
     <p>Here is your song: <a href="/download/{{ file_name }}">Click</a></p>
     <p>The string representing this melody is: {{ string }}</p>
+
+    <ul>
+    {% for choice in form.chosenScore.field.choices %}
+    <li>
+        <input type="radio" name="my_choice_field" value="{{choice.0}}"
+        {% ifequal form.chosenScore.data choice.0 %}
+             checked="checked"
+        {% endifequal %}/>
+        <label for="">{{choice.1}}</label>
+    </li>
+    {% endfor %}
+    </ul>
 </body>
 </html>
