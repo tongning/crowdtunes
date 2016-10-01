@@ -28,9 +28,12 @@ def index(request):
         #melody = notes[idx]
         #melodyString = notesString[idx]
         melody = []
+        melodyString = []
         for x in range(0,numNotes):
-            melody.append(random.choice(notes))
-        return melody#, melodyString
+            choice = random.randint(0, len(notesString)-1)
+            melody.append(notes[choice])
+            melodyString.append(notesString[choice])
+        return melody, melodyString
 
     def makeTimes(numNotes):
         times = []
@@ -48,15 +51,15 @@ def index(request):
         oldSongs = glob.glob("core/static/tuneFiles/*.wav")
         songsNum = len(oldSongs)
         songcount = songsNum + 1
-        return "tune%d.wav" % songcount
+        return "tune%d.wav" %songcount
 
     def exportMelody(melody,fileName):
-        melody.export("core/static/tuneFiles/%s" % fileName, format="wav")
+        melody.export("core/static/tuneFiles/%s" %fileName, format="wav")
 
     # Create your views here.
     fileName = makeFileName()
     numNotes = 8
-    melodyNotes = makeMelody(numNotes)
+    melodyNotes,melodyString = makeMelody(numNotes)
     times = makeTimes(numNotes)
     timedMelody = makeTimedMelody(melodyNotes, times)
     exportMelody(timedMelody,fileName)
