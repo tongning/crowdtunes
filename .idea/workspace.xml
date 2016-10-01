@@ -59,8 +59,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            <state relative-caret-position="261">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -118,8 +118,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="683" />
-    <option name="y" value="170" />
+    <option name="x" value="578" />
+    <option name="y" value="116" />
     <option name="width" value="2427" />
     <option name="height" value="1581" />
   </component>
@@ -495,11 +495,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475351700015</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Move vote">
+      <created>1475351919253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1475351919253</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="170" width="2427" height="1581" extended-state="0" />
+    <frame x="578" y="116" width="2427" height="1581" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -535,7 +542,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add initial models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add initial models" />
+    <MESSAGE value="Move vote" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move vote" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -586,8 +594,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="261">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
           <folding />
         </state>
       </provider>

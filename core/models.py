@@ -7,6 +7,6 @@ class Vote(models.Model):
 class Song(models.Model):
     filename = models.CharField(max_length=200)
     votes = models.ManyToManyField(Vote)
-    note_sequence = models.CharField(max_field=200)
+    note_sequence = models.CharField(max_length=200)
 
 
