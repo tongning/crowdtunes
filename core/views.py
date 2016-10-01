@@ -44,20 +44,22 @@ def index(request):
             song += melody[i][:times[i]]
         return song
 
-    def exportMelody(melody):
-
+    def makeFileName():
         oldSongs = glob.glob("core/static/tuneFiles/*.wav")
         songsNum = len(oldSongs)
         songcount = songsNum + 1
-        melody.export("core/static/tuneFiles/tune%d.wav" % songcount, format="wav")
+        return "tune%d.wav" % songcount
+
+    def exportMelody(melody,fileName):
+        melody.export("core/static/tuneFiles/%s" % fileName, format="wav")
 
     # Create your views here.
-
+    fileName = makeFileName()
     numNotes = 8
     melodyNotes = makeMelody(numNotes)
     times = makeTimes(numNotes)
     timedMelody = makeTimedMelody(melodyNotes, times)
-    exportMelody(timedMelody)
+    exportMelody(timedMelody,fileName)
 
-    return render(request, 'index.html')
+    return render(request, 'index.html', {'file_name':fileName})
 
