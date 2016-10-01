@@ -34,7 +34,7 @@ def index(request):
     csharp = AudioSegment.from_wav("core/notes/Csharp.wav")
     fsharp = AudioSegment.from_wav("core/notes/Fsharp.wav")
     gsharp = AudioSegment.from_wav("core/notes/Gsharp.wav")
-    notesString = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'Csharp', 'Dsharp', 'Fsharp', 'Gsharp', 'Asharp']
+    notesString = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'C#', 'D#', 'F#', 'G#', 'A#']
     notes = [a, b, c, d, e, f, g, csharp, dsharp, fsharp, gsharp, asharp]
     possTimes = [125, 250, 500, 750, 1000]
 
