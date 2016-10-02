@@ -85,7 +85,7 @@ def index(request):
     def makeTimes(numNotes):
         times = []
         for x in range(0, numNotes):
-            choice = random.int(-8, len(possTimes)+7)
+            choice = random.randint(-8, len(possTimes)+7)
             try:
                 if choice >= len(possTimes):
                     choice = random.randint(times[x-1-random.randint(0,1)])
