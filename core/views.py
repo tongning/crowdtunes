@@ -62,7 +62,7 @@ def index(request):
     gsharp = AudioSegment.from_wav("core/notes/Gsharp.wav")
     notesString = ['A', 'A#', 'B', 'C', 'C#''D', 'D#','E', 'F', 'F#','G', 'G#']
     notes = [a,  asharp , b, c, csharp , d , dsharp , e , f, fsharp, g, gsharp]
-    possTimes = [125, 250, 500, 750, 1000]
+    possTimes = [250, 500, 750, 1000]
     oldSongs = glob.glob("core/static/tuneFiles/*.wav")
     songsNum = len(oldSongs)
 
@@ -85,7 +85,7 @@ def index(request):
     def makeTimes(numNotes):
         times = []
         for x in range(0, numNotes):
-            choice = random.randint(-8, len(possTimes)+7)
+            choice = random.randint(-11, len(possTimes)+12)
             try:
                 if choice >= len(possTimes):
                     choice = random.randint(times[x-1-random.randint(0,1)])

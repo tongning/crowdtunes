@@ -62,8 +62,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+            <state relative-caret-position="300">
+              <caret line="121" column="41" selection-start-line="121" selection-start-column="41" selection-end-line="121" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -542,13 +542,6 @@
       <option name="presentableId" value="Default" />
       <updated>1475344431768</updated>
     </task>
-    <task id="LOCAL-00005" summary="Merge branch 'master' of github.com:tongning/crowdtunes&#10;&#10;# Conflicts:&#10;#&#9;core/views.py&#10;#&#9;venv/lib/python3.5/site-packages/pip-8.1.2.dist-info/RECORD&#10;#&#9;venv/lib/python3.5/site-packages/psycopg2-2.6.2.dist-info/RECORD&#10;#&#9;venv/lib/python3.5/site-packages/wheel-0.30.0a0.dist-info/RECORD&#10;#&#9;venv/lib/python3.5/site-packages/whitenoise-3.2.2.dist-info/RECORD&#10;">
-      <created>1475353980106</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1475353980106</updated>
-    </task>
     <task id="LOCAL-00006" summary="Add core">
       <created>1475354395735</created>
       <option name="number" value="00006" />
@@ -885,7 +878,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475423140416</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="play automatically on page load">
+      <created>1475423366288</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1475423366288</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1325,8 +1325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+        <state relative-caret-position="300">
+          <caret line="121" column="41" selection-start-line="121" selection-start-column="41" selection-end-line="121" selection-end-column="41" />
           <folding />
         </state>
       </provider>
