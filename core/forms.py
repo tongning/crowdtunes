@@ -1,6 +1,6 @@
 from django import forms
 from crispy_forms.helper import FormHelper
-from crispy_forms.layout import Layout, Fieldset, HTML
+from crispy_forms.layout import Layout, Fieldset, HTML, Submit
 from crispy_forms.bootstrap import StrictButton, InlineRadios, Field, FieldWithButtons
 
 scoreChoices = ((0, '0'),
@@ -24,5 +24,19 @@ class ScoreForm(forms.Form):
             StrictButton('Vote', css_class='btn-success', type='submit')
 
         )
+class NotesForm(forms.Form):
+    #should add regex validators = [RegexValidator(....
+    notes = forms.CharField(
+        label = "Notes",
+        max_length = 60,
+        required=True
+    )
 
+    def __init__(self, *args, **kwargs):
+        super(NotesForm, self).__init__(*args, **kwargs)
+        self.helper = FormHelper()
+        self.helper.form_id = 'Notes'
+        self.helper.form_method = 'post'
+        self.helper.form_action = '.'
+        self.helper.add_input(Submit('submit', 'Submit'))
 
