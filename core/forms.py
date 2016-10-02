@@ -3,7 +3,7 @@ from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Layout, Fieldset, HTML
 from crispy_forms.bootstrap import StrictButton, InlineRadios, Field, FieldWithButtons
 
-scoreChoices = ((0,'0'),
+scoreChoices = ((0, '0'),
                 (1, '1'),
                 (2, '2'),
                 (3, '3'),
