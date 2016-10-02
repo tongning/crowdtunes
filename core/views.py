@@ -115,3 +115,5 @@ def index(request):
             song.save()
             return redirect('/')
 
+def combined(request):
+    render(request, 'combined.html')
