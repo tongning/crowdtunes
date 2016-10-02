@@ -29,7 +29,7 @@ def index(request):
     if request.method == 'GET':
         oldSongs = glob.glob("core/static/tuneFiles/*.wav")
         songsNum = len(oldSongs)
-        if(songsNum<3):
+        if(songsNum<20):
             a = AudioSegment.from_wav("core/notes/A.wav")
             b = AudioSegment.from_wav("core/notes/B.wav")
             c = AudioSegment.from_wav("core/notes/C.wav")
@@ -127,4 +127,6 @@ def combined(request):
         hello3 = AudioSegment.from_wave("core/static/tuneFiles/" + chosen[2].filename + ".wave")
         hello4 = AudioSegment.from_wave("core/static/tuneFiles/" + chosen[3].filename + ".wave")
         ultimateCombo = hello1 + hello2 + hello3 + hello4
+    if Song.objects.all().count() >= 4:
+        combine()
     return render(request, 'combined.html', {'message':'hello!'})
