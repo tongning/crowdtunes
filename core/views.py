@@ -99,7 +99,7 @@ def index(request):
     def makeTimedMelody(melody, times):
         song = melody[0][:times[0]]
         for i in range(1, len(melody)):
-            song += melody[i][:times[i]]
+                song += melody[i][:times[i]]
         return song
 
     def makeFileName():
@@ -205,6 +205,7 @@ def combined(request):
         combSong = AudioSegment.from_wav("core/static/tuneFiles/" + chosen[0].filename + ".wav")
         for i in range(1, len(chosen)):
             combSong += AudioSegment.from_wav("core/static/tuneFiles/" + chosen[i].filename + ".wav")
+        combSong = combSong.fade_out(2000)
         filename = ("kewlsong%r" % (random.randint(0, 10000)))
         combSong.export("core/static/combinedFiles/%s.wav" % filename, format="wav")
         request.session['filename'] = filename
