@@ -44,7 +44,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
               <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-              <folding />
+              <folding>
+                <marker date="1475422220728" expanded="false" signature="0:104" ph="import ..." />
+                <marker date="1475422220728" expanded="true" signature="121:500" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,8 +65,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="160" column="47" selection-start-line="160" selection-start-column="47" selection-end-line="160" selection-end-column="47" />
+            <state relative-caret-position="364">
+              <caret line="102" column="59" selection-start-line="102" selection-start-column="59" selection-end-line="102" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -542,13 +545,6 @@
       <option name="presentableId" value="Default" />
       <updated>1475344431768</updated>
     </task>
-    <task id="LOCAL-00007" summary="File creation works!">
-      <created>1475355272592</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1475355272592</updated>
-    </task>
     <task id="LOCAL-00008" summary="Put files in correct location">
       <created>1475355854971</created>
       <option name="number" value="00008" />
@@ -885,7 +881,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475423528686</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="play automatically on page load">
+      <created>1475423619753</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1475423619753</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1045,7 +1048,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
+          <folding>
+            <marker date="1475422220728" expanded="false" signature="0:104" ph="import ..." />
+            <marker date="1475422220728" expanded="true" signature="121:500" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1231,14 +1237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crowdtunes/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -1261,7 +1259,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding />
+          <folding>
+            <marker date="1475422220728" expanded="false" signature="0:104" ph="import ..." />
+            <marker date="1475422220728" expanded="true" signature="121:500" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1280,14 +1281,6 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/static/combinedFiles/placeholder.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1323,10 +1316,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/static/combinedFiles/placeholder.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="160" column="47" selection-start-line="160" selection-start-column="47" selection-end-line="160" selection-end-column="47" />
+        <state relative-caret-position="364">
+          <caret line="102" column="59" selection-start-line="102" selection-start-column="59" selection-end-line="102" selection-end-column="59" />
           <folding />
         </state>
       </provider>
