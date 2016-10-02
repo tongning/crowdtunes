@@ -12,7 +12,7 @@
     <ul class="nav navbar-nav">
         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
         <li class="hidden"><a href="{% url 'index' %}"></a></li>
-        <li><a class="page-scroll" href="#home">Home</a></li>
+        <li><a class="page-scroll" href="{% url 'index' %}">Home</a></li>
         <li><a class="page-scroll" href="#about">About</a></li>
     </ul>
 </div>
@@ -22,14 +22,13 @@
     padding-bottom: 30px;
     padding-left: 80px">
     <h1>CrowdTunes</h1>
-    <p>This is a combined song, man.</p>
+    <p>{{ message}}</p>
 </div>
 <div class="song" style="
     padding-top: 0px;
     padding-right: 30px;
     padding-bottom: 30px;
     padding-left: 80px">
-    {{ message}}
         <blockquote>
             <audio controls autoplay>
                 <source src="/downloadSong/{{ file_name }}" type="audio/wav">
