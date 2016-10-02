@@ -16,12 +16,15 @@
     </div>
 
     <div class="song">
-    <blockquote><a href="/download/{{ file_name }}"><code>Download Song</code></a></blockquote>
-    <audio controls autoplay>
-        <source src="/download/{{ file_name }}" type="audio/wav">
+    <blockquote>
+        <audio controls autoplay>
+            <source src="/download/{{ file_name }}" type="audio/wav">
 
-        Your browser does not support the audio element.
-    </audio>
+            Your browser does not support the audio element.
+        </audio>
+        <p></p>
+        <a href="/download/{{ file_name }}"><code>Download Song</code></a>
+    </blockquote>
     <p>The string representing this melody is: {{ string }}</p>
     </div>
     <div class="form">
