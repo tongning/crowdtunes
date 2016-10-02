@@ -11,7 +11,7 @@ from django.utils.encoding import smart_str
 import pydub
 # Create your views here.
 from core.models import Song, Vote
-from .forms import ScoreForm
+from .forms import ScoreForm, NotesForm
 
 
 
@@ -30,71 +30,83 @@ def downloadSong(request, filename):
             response['Content-Disposition'] = 'inline; filename=' + os.path.basename(file_path)
             return response
 
-
-
-def index(request):
+def createYourOwn(request): #DOESNT WORK YET
     if request.method == 'GET':
+        form = NotesForm()
+        return render(request, 'createYourOwn.html', {'form': form})
+    else:
+        form = NotesForm(request.POST)
+        if form.is_valid():
+            notesStr = form.cleaned_data['notes']
+            notesStr = notesStr.upper()
+            notes = notesStr.split(" ")
+            index('GET',notes) #DOESNT WORK RIGHT NOW
+
+def about(request):
+    return render(request, 'about.html')
+
+def index(request,useNotes = []):
+    a = AudioSegment.from_wav("core/notes/A.wav")
+    b = AudioSegment.from_wav("core/notes/B.wav")
+    c = AudioSegment.from_wav("core/notes/C.wav")
+    d = AudioSegment.from_wav("core/notes/D.wav")
+    e = AudioSegment.from_wav("core/notes/E.wav")
+    f = AudioSegment.from_wav("core/notes/F.wav")
+    g = AudioSegment.from_wav("core/notes/G.wav")
+    asharp = AudioSegment.from_wav("core/notes/Asharp.wav")  # Bb
+    dsharp = AudioSegment.from_wav("core/notes/Dsharp.wav")  # Eb
+    csharp = AudioSegment.from_wav("core/notes/Csharp.wav")
+    fsharp = AudioSegment.from_wav("core/notes/Fsharp.wav")
+    gsharp = AudioSegment.from_wav("core/notes/Gsharp.wav")
+    notesString = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'C#', 'D#', 'F#', 'G#', 'A#']
+    notes = [a, b, c, d, e, f, g, csharp, dsharp, fsharp, gsharp, asharp]
+    possTimes = [125, 250, 500, 750, 1000]
+    oldSongs = glob.glob("core/static/tuneFiles/*.wav")
+    songsNum = len(oldSongs)
+
+    def makeMelody(numNotes):
+        melody = []
+        melodyString = []
+        for x in range(0, numNotes):
+            choice = random.randint(0, len(notesString) - 1)
+            melody.append(notes[choice])
+            melodyString.append(notesString[choice])
+        return melody, melodyString
+
+    def makeTimes(numNotes):
+        times = []
+        for x in range(0, numNotes):
+            times.append(random.choice(possTimes))
+        return times
+
+    def makeTimedMelody(melody, times):
+        song = melody[0][:times[0]]
+        for i in range(1, len(melody)):
+            song += melody[i][:times[i]]
+        return song
+
+    def makeFileName():
         oldSongs = glob.glob("core/static/tuneFiles/*.wav")
         songsNum = len(oldSongs)
-        if(songsNum<20):
-            a = AudioSegment.from_wav("core/notes/A.wav")
-            b = AudioSegment.from_wav("core/notes/B.wav")
-            c = AudioSegment.from_wav("core/notes/C.wav")
-            d = AudioSegment.from_wav("core/notes/D.wav")
-            e = AudioSegment.from_wav("core/notes/E.wav")
-            f = AudioSegment.from_wav("core/notes/F.wav")
-            g = AudioSegment.from_wav("core/notes/G.wav")
-            asharp = AudioSegment.from_wav("core/notes/Asharp.wav")  # Bb
-            dsharp = AudioSegment.from_wav("core/notes/Dsharp.wav")  # Eb
-            csharp = AudioSegment.from_wav("core/notes/Csharp.wav")
-            fsharp = AudioSegment.from_wav("core/notes/Fsharp.wav")
-            gsharp = AudioSegment.from_wav("core/notes/Gsharp.wav")
-            notesString = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'C#', 'D#', 'F#', 'G#', 'A#']
-            notes = [a, b, c, d, e, f, g, csharp, dsharp, fsharp, gsharp, asharp]
-            possTimes = [125, 250, 500, 750, 1000]
+        songcount = songsNum + 1
+        return "tune%d.wav" % songcount
 
+    def exportMelody(melody, fileName):
+        melody.export("core/static/tuneFiles/%s" % fileName, format="wav")
+        melody.export("crowdtunes/staticfiles/%s" % fileName, format="wav")
 
-            def makeMelody(numNotes):
-                #idx = np.random.choice(np.arange(len(notes)), numNotes, replace=True)
-                #melody = notes[idx]
-                #melodyString = notesString[idx]
-                melody = []
-                melodyString = []
-                for x in range(0,numNotes):
-                    choice = random.randint(0, len(notesString)-1)
-                    melody.append(notes[choice])
-                    melodyString.append(notesString[choice])
-                return melody, melodyString
-
-            def makeTimes(numNotes):
-                times = []
-                for x in range(0, numNotes):
-                    times.append(random.choice(possTimes))
-                return times
-
-            def makeTimedMelody(melody, times):
-                song = melody[0][:times[0]]
-                for i in range(1, len(melody)):
-                    song += melody[i][:times[i]]
-                return song
-
-            def makeFileName():
-                oldSongs = glob.glob("core/static/tuneFiles/*.wav")
-                songsNum = len(oldSongs)
-                songcount = songsNum + 1
-                return "tune%d.wav" %songcount
-
-            def exportMelody(melody,fileName):
-                melody.export("core/static/tuneFiles/%s" %fileName, format="wav")
-
-            # Create your views here.
+    if request.method == 'GET':
+        if useNotes != []:
+            print "HI" #NOT GOOD RIGHT NOW
+            return render(request, 'index.html', {'file_name': fileName, 'string': str(melodyString), 'form': form})
+        elif songsNum<5:
             fileName = makeFileName()
             numNotes = 8
             melodyNotes,melodyString = makeMelody(numNotes)
             times = makeTimes(numNotes)
             timedMelody = makeTimedMelody(melodyNotes, times)
             exportMelody(timedMelody,fileName)
-            fileName = fileName[:-4]
+            fileName = fileName[:-4] #omit .wav
             form = ScoreForm()
             request.session['filename'] = fileName
             # Create new song object and save in database
@@ -106,7 +118,7 @@ def index(request):
             randsong = randint(1, songsNum)
             form = ScoreForm()
             request.session['filename'] = 'tune'+str(randsong)
-            return render(request, 'index.html', {'file_name':'tune'+str(randsong),'string':'Previously generated song','form':form})
+            return render(request, 'index.html', {'file_name':'tune'+str(randsong),'string':'Previously generated song: #%s'%str(randsong),'form':form})
     else:
         form = ScoreForm(request.POST)
         if form.is_valid():
@@ -124,7 +136,7 @@ def index(request):
             return redirect('/')
 
 def combined(request):
-    def combine():
+    def combinetop4():
         all_songs = Song.objects.all().order_by('averageVote')
         chosen = [all_songs[len(all_songs)-1], all_songs[len(all_songs)-2], all_songs[len(all_songs)-3],
         all_songs[len(all_songs)-4]]
@@ -132,7 +144,9 @@ def combined(request):
         AudioSegment.from_wav("core/static/tuneFiles/" + chosen[1].filename + ".wav"),
         AudioSegment.from_wav("core/static/tuneFiles/" + chosen[2].filename + ".wav"),
         AudioSegment.from_wav("core/static/tuneFiles/" + chosen[3].filename + ".wav")]
-        ultimateCombo = None
+        pick = random.choice(hello)
+        ultimateCombo = random.choice(hello)
+        hello.remove(pick)
         for values in hello:
             pick = random.choice(hello)
             ultimateCombo = ultimateCombo + pick
@@ -141,7 +155,26 @@ def combined(request):
         ultimateCombo.export("core/static/combinedFiles/%s.wav" % filename, format="wav")
         request.session['filename'] = filename
         return render(request, 'combined.html', {'message': 'a song was generated', 'file_name': filename})
-    if Song.objects.all().count() >= 4:
-        return combine()
+    def combineSquareRatio(numTunes):
+        all_songs = Song.objects.all().order_by('averageVote')
+        probs = []
+        for song in all_songs:
+            probs.append((song.averageVote+1)**2)
+        totNum = np.sum(probs)
+        for i in range(0,len(probs)):
+            probs[i] = float(probs[i])/float(totNum)
+        chosen = np.random.choice(all_songs,numTunes,replace=True,p=probs)
+        combSong = AudioSegment.from_wav("core/static/tuneFiles/" + chosen[0].filename + ".wav")
+        for i in range(1, len(chosen)):
+            combSong += AudioSegment.from_wav("core/static/tuneFiles/" + chosen[i].filename + ".wav")
+        filename = ("kewlsong%r" % (random.randint(0, 10000)))
+        combSong.export("core/static/combinedFiles/%s.wav" % filename, format="wav")
+        request.session['filename'] = filename
+        return render(request, 'combined.html', {'message': 'a nice song was generated', 'file_name': filename})
+    #if Song.objects.all().count() >= 4:
+    #    return combinetop4()
+    numTunes = 4
+    if Song.objects.all().count() >= 1:
+        return combineSquareRatio(numTunes)
     else:
         return render(request, 'combined.html', {'message': 'hello!'})

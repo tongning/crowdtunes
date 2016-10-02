@@ -2,11 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ultimate Powaaaaarrrr</title>
+    <title>Combined Song</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-{{ message}}
-<a>WE ARE THE CHAMPIONS</a>
-<a href="/downloadSong/{{ file_name }}"><code>Download Song</code></a>
+<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+    <ul class="nav navbar-nav">
+        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+        <li class="hidden"><a href="{% url 'index' %}"></a></li>
+        <li><a class="page-scroll" href="{% url 'index' %}">Home</a></li>
+        <li><a class="page-scroll" href="{% url 'about' %}">About</a></li>
+    </ul>
+</div>
+<div class="head" style="
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px">
+    <h1>CrowdTunes</h1>
+    <p>{{ message}}</p>
+</div>
+<div class="song" style="
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px">
+        <blockquote>
+            <audio controls autoplay>
+                <source src="/downloadSong/{{ file_name }}" type="audio/wav">
+
+                Your browser does not support the audio element.
+            </audio>
+            <p></p>
+            <a href="/downloadSong/{{ file_name }}"><code>Download Combined Song</code></a>
+        </blockquote>
+    </div>
 </body>
 </html>
