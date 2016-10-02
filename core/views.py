@@ -111,7 +111,7 @@ def index(request):
             givenNotesStr = str(givenNotes)
             givenNotes = []
             return render(request, 'index.html', {'file_name': fileName[:-4], 'string': givenNotesStr, 'form': form})
-        elif songsNum<40:
+        elif songsNum<6:
             fileName = makeFileName()
             numNotes = 8
             melodyNotes,melodyString = makeMelody(numNotes)
@@ -127,8 +127,15 @@ def index(request):
             newsong.save()
             return render(request, 'index.html', {'file_name':fileName, 'string':str(melodyString),'form':form})
         else:
+            deleteOne = randint(1, 5)
+            if deleteOne == 1:
+                all_songs = Song.objects.all().order_by('averageVote')
+                os.remove("core/static/tuneFiles/%s.wav"%all_songs[0].filename)
+                all_songs[0].delete()
             randsong = randint(1, songsNum)
             form = ScoreForm()
+            while not os.path.exists("core/static/tuneFiles/tune%d.wav"%randsong):
+                randsong = randint(1, songsNum)
             request.session['filename'] = 'tune'+str(randsong)
             return render(request, 'index.html', {'file_name':'tune'+str(randsong),'string':'Previously generated song: #%s'%str(randsong),'form':form})
     else:
