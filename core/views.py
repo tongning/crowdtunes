@@ -201,7 +201,7 @@ def combined(request):
         return combineSquareRatio(numTunes)
     else:
         return render(request, 'combined.html', {'message': 'hello!'})
-def handler500(request):
+def server_error(request):
 
     return redirect('/')
 
