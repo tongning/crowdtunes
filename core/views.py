@@ -203,3 +203,7 @@ def combined(request):
 def handler500(request):
 
     return redirect('/')
+
+def handler404(request):
+
+    return redirect('/')
