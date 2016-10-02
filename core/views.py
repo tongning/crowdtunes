@@ -129,7 +129,7 @@ def combined(request):
         filename = ("TheGlorious%r" % (random.randint(0,10000)) )
         ultimateCombo.export("core/static/combinedFiles/%s" % filename, format="wav")
         request.session['filename'] = filename
-        return render(request, 'combined.html', {'message': 'a song was generated'}, {'file_name': filename})
+        return render(request, 'combined.html', {'message': 'a song was generated', 'file_name': filename})
     if Song.objects.all().count() >= 4:
         return combine()
     else:
