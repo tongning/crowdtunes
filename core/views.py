@@ -93,6 +93,7 @@ def index(request):
             request.session['filename'] = fileName
             # Create new song object and save in database
             newsong = Song.objects.create_song(fileName,melodyString)
+            newsong.songMelody = melodyNotes
             newsong.save()
             return render(request, 'index.html', {'file_name':fileName, 'string':str(melodyString),'form':form})
         else:
@@ -123,7 +124,7 @@ def combined(request):
         all_songs[len(all_songs)-4]]
         return chosen
 
-    def setMelody():
+    def setMelody(chosen):
         a = AudioSegment.from_wav("core/notes/A.wav")
         b = AudioSegment.from_wav("core/notes/B.wav")
         c = AudioSegment.from_wav("core/notes/C.wav")
@@ -140,18 +141,35 @@ def combined(request):
         notes = [a, b, c, d, e, f, g, csharp, dsharp, fsharp, gsharp, asharp]
         possTimes = [125, 250, 500, 750, 1000]
         melody = []
+        i = 0
         for x in chosen:
-            melody.append(chosen[i].
+            j = 0
+            for y in chosen[i].songMelody:
+                melody.append(chosen[i].songMelody[j])
+                ++j
+            ++i
+        return melody
 
-
-
-        melody = []
-        melodyString = []
+    def setTimes(numNotes):
+        times = []
         for x in range(0, numNotes):
-            choice = random.randint(0, len(notesString) - 1)
-            melody.append(notes[choice])
-            melodyString.append(notesString[choice])
-        return melody, melodyString
+            times.append(random.choice(possTimes))
+        return times
 
+    def setTimedMelody(melody, times):
+        song = melody[0][:times[0]]
+        for i in range(1, len(melody)):
+            song += melody[i][:times[i]]
+        return song
+
+    def setFileName():
+        oldSongs = glob.glob("core/static/tuneFiles/*.wav")
+        songsNum = len(oldSongs)
+        songcount = songsNum + 1
+        return "tune%d.wav" % songcount
+
+    def setExportMelody(melody, fileName):
+        melody.export("core/static/tuneFiles/%s" % fileName, format="wav")
+        melody.export("crowdtunes/staticfiles/%s" % fileName, format="wav")
 
     return render(request, 'combined.html', {'message':'hello!'})

@@ -10,7 +10,7 @@ class SongManager(models.Manager):
 class Song(models.Model):
 
     filename = models.CharField(max_length=200)
-
+    songMelody = models.MelodyField()
     note_sequence = models.CharField(max_length=200)
     objects = SongManager()
     averageVote = models.FloatField(default=0)
