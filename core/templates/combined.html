@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ultimate Powaaaaarrrr</title>
+    <title>Combined Song</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -13,7 +13,7 @@
         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
         <li class="hidden"><a href="{% url 'index' %}"></a></li>
         <li><a class="page-scroll" href="{% url 'index' %}">Home</a></li>
-        <li><a class="page-scroll" href="#about">About</a></li>
+        <li><a class="page-scroll" href="{% url 'about' %}">About</a></li>
     </ul>
 </div>
 <div class="head" style="
