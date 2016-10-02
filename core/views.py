@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponse, redirect
+from django.shortcuts import render, HttpResponse,redirect, HttpResponseRedirect
 import os
 import numpy as np
 import glob
@@ -14,7 +14,7 @@ from core.models import Song, Vote
 from .forms import ScoreForm, NotesForm
 
 
-
+givenNotes = []
 def download(request, filename):
     file_path = 'core/static/tuneFiles/'+filename+'.wav'
     if os.path.exists(file_path):
@@ -31,6 +31,7 @@ def downloadSong(request, filename):
             return response
 
 def createYourOwn(request): #DOESNT WORK YET
+    global givenNotes
     if request.method == 'GET':
         form = NotesForm()
         return render(request, 'createYourOwn.html', {'form': form})
@@ -39,13 +40,14 @@ def createYourOwn(request): #DOESNT WORK YET
         if form.is_valid():
             notesStr = form.cleaned_data['notes']
             notesStr = notesStr.upper()
-            notes = notesStr.split(" ")
-            index('GET',notes) #DOESNT WORK RIGHT NOW
+            givenNotes = notesStr.split(" ")
+            return redirect('/')
 
 def about(request):
     return render(request, 'about.html')
 
-def index(request,useNotes = []):
+def index(request):
+    global givenNotes
     a = AudioSegment.from_wav("core/notes/A.wav")
     b = AudioSegment.from_wav("core/notes/B.wav")
     c = AudioSegment.from_wav("core/notes/C.wav")
@@ -96,9 +98,19 @@ def index(request,useNotes = []):
         melody.export("crowdtunes/staticfiles/%s" % fileName, format="wav")
 
     if request.method == 'GET':
-        if useNotes != []:
-            print "HI" #NOT GOOD RIGHT NOW
-            return render(request, 'index.html', {'file_name': fileName, 'string': str(melodyString), 'form': form})
+        if givenNotes!=[]:
+            melody = []
+            for i in range(0,len(givenNotes)):
+                ind = notesString.index(givenNotes[i])
+                melody.append(notes[ind])
+            times = makeTimes(len(melody)) #make random times for now
+            timedMelody = makeTimedMelody(melody,times)
+            fileName = makeFileName()
+            form = ScoreForm()
+            exportMelody(timedMelody,fileName)
+            givenNotesStr = str(givenNotes)
+            givenNotes = []
+            return render(request, 'index.html', {'file_name': fileName[:-4], 'string': givenNotesStr, 'form': form})
         elif songsNum<5:
             fileName = makeFileName()
             numNotes = 8
