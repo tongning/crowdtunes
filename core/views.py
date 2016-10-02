@@ -132,7 +132,9 @@ def combined(request):
         AudioSegment.from_wav("core/static/tuneFiles/" + chosen[1].filename + ".wav"),
         AudioSegment.from_wav("core/static/tuneFiles/" + chosen[2].filename + ".wav"),
         AudioSegment.from_wav("core/static/tuneFiles/" + chosen[3].filename + ".wav")]
-        ultimateCombo = None
+        pick = random.choice(hello)
+        ultimateCombo = random.choice(hello)
+        hello.remove(pick)
         for values in hello:
             pick = random.choice(hello)
             ultimateCombo = ultimateCombo + pick
