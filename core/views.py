@@ -134,7 +134,7 @@ def combined(request):
         hello4 = AudioSegment.from_wav("core/static/tuneFiles/" + chosen[3].filename + ".wav")
         ultimateCombo = hello1 + hello2 + hello3 + hello4
         filename = ("TheGlorious%r" % (random.randint(0,10000)) )
-        ultimateCombo.export("core/static/combinedFiles/%s" % filename, format="wav")
+        ultimateCombo.export("core/static/combinedFiles/%s.wav" % filename, format="wav")
         request.session['filename'] = filename
         return render(request, 'combined.html', {'message': 'a song was generated', 'file_name': filename})
     if Song.objects.all().count() >= 4:
