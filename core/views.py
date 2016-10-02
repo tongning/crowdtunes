@@ -126,7 +126,7 @@ def combined(request):
         hello3 = AudioSegment.from_wav("core/static/tuneFiles/" + chosen[2].filename + ".wav")
         hello4 = AudioSegment.from_wav("core/static/tuneFiles/" + chosen[3].filename + ".wav")
         ultimateCombo = hello1 + hello2 + hello3 + hello4
-        filename = ("The Glorious + %r" % (random.randint(0,10000)) )
+        filename = ("TheGlorious%r" % (random.randint(0,10000)) )
         ultimateCombo.export("core/static/combinedFiles/%s" % filename, format="wav")
         request.session['filename'] = filename
         return render(request, 'combined.html', {'message': 'hello!'}, {'file_name': filename})
