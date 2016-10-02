@@ -118,7 +118,7 @@ def index(request):
             newvote = Vote(score=rating, song=song)
             newvote.save()
             numVotesOnThisSong = int(Vote.objects.filter(song=song).count())
-            song.averageVote = (song.averageVote*numVotesOnThisSong + int(newvote.score))/(numVotesOnThisSong+1)
+            song.averageVote = (song.averageVote*(numVotesOnThisSong-1) + int(newvote.score))/(numVotesOnThisSong)
 
             song.save()
             return redirect('/')
