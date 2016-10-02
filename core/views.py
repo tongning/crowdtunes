@@ -100,7 +100,7 @@ def index(request):
         song = melody[0][:times[0]]
         for i in range(1, len(melody)):
                 song += melody[i][:times[i]]
-        return song.fade_out(1000)
+        return song.fade_in(1000).fade_out(1000)
 
     def makeFileName():
         oldSongs = glob.glob("core/static/tuneFiles/*.wav")
