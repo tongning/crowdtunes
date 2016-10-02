@@ -111,7 +111,7 @@ def index(request):
             givenNotesStr = str(givenNotes)
             givenNotes = []
             return render(request, 'index.html', {'file_name': fileName[:-4], 'string': givenNotesStr, 'form': form})
-        elif songsNum<5:
+        elif songsNum<40:
             fileName = makeFileName()
             numNotes = 8
             melodyNotes,melodyString = makeMelody(numNotes)
