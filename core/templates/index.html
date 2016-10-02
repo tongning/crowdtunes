@@ -10,25 +10,38 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="head">
+    <div class="head" style="
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px">
     <h1>CrowdTunes</h1>
     <p>CrowdTunes is a provider of interactive audio technology.  You can vote on your favorite tunes!</p>
     </div>
 
-    <div class="song">
-    <blockquote>
-        <audio controls autoplay>
-            <source src="/download/{{ file_name }}" type="audio/wav">
+    <div class="song" style="
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px">
+        <blockquote>
+            <audio controls autoplay>
+                <source src="/download/{{ file_name }}" type="audio/wav">
 
-            Your browser does not support the audio element.
-        </audio>
-        <p></p>
-        <a href="/download/{{ file_name }}"><code>Download Song</code></a>
-    </blockquote>
-    <p>The string representing this melody is: {{ string }}</p>
-    </div>
-    <div class="well">
-    {% crispy form %}
+                Your browser does not support the audio element.
+            </audio>
+            <p></p>
+            <a href="/download/{{ file_name }}"><code>Download Song</code></a>
+        </blockquote>
+        <p>The string representing this melody is: {{ string }}</p>
+        <div class="well"style="
+        padding-top: 0px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 80px"
+        >
+        {% crispy form %}
+        </div>
     </div>
 </body>
 </html>
