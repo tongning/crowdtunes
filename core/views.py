@@ -96,10 +96,10 @@ def index(request):
             newsong.save()
             return render(request, 'index.html', {'file_name':fileName, 'string':str(melodyString),'form':form})
         else:
-            randsong = Song.objects.order_by('?').first()
+            randsong = randint(1, songsNum)
             form = ScoreForm()
-            request.session['filename'] = randsong.filename
-            return render(request, 'index.html', {'file_name':randsong.filename,'string':'Previously generated song','form':form})
+            request.session['filename'] = 'tune'+str(randsong)
+            return render(request, 'index.html', {'file_name':'tune'+str(randsong),'string':'Previously generated song','form':form})
     else:
         form = ScoreForm(request.POST)
         if form.is_valid():
