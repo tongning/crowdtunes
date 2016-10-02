@@ -101,7 +101,8 @@ def index(request):
         for i in range(1, len(melody)):
             if(i == len(melody)):
                 song += melody[i][:times[i]].fade_out(6000)
-            song += melody[i][:times[i]]
+            else:
+                song += melody[i][:times[i]]
         return song
 
     def makeFileName():
