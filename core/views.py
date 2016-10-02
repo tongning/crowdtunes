@@ -142,6 +142,8 @@ def index(request):
     else:
         form = ScoreForm(request.POST)
         if form.is_valid():
+            if not request.session['filename']:
+                return redirect('/')
             filename_str = request.session['filename']
             # Find the Song object attached to this filename
             song = Song.objects.get(filename=filename_str)
@@ -199,5 +201,5 @@ def combined(request):
     else:
         return render(request, 'combined.html', {'message': 'hello!'})
 def handler500(request):
-    
+
     return redirect('/')
