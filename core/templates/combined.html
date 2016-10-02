@@ -6,5 +6,8 @@
 </head>
 <body>
 {{ message}}
+{% if file_name %}
+<a href="/download/{{ file_name }}"><code>Download Song</code></a>
+{% endif %}
 </body>
 </html>
