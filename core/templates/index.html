@@ -5,22 +5,27 @@
 <head>
     <meta charset="UTF-8">
     <title>CrowdTunes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <div class="head">
     <h1>CrowdTunes</h1>
-    <p>CrowdTunes is a provider of interactive audio technology.  You can vote on your favorite tunes!<p>
-    <p> I like pizza </p>
-    <p>hi</p>
-    <hr>
+    <p>CrowdTunes is a provider of interactive audio technology.  You can vote on your favorite tunes!</p>
+    </div>
 
-    <p>Here is your song: <a href="/download/{{ file_name }}">Click</a></p>
+    <div class="song">
+    <blockquote><a href="/download/{{ file_name }}"><code>Download Song</code></a></blockquote>
     <audio controls autoplay>
         <source src="/download/{{ file_name }}" type="audio/wav">
 
         Your browser does not support the audio element.
     </audio>
     <p>The string representing this melody is: {{ string }}</p>
-
+    </div>
+    <div class="form">
     {% crispy form %}
+    </div>
 </body>
 </html>
