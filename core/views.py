@@ -117,4 +117,41 @@ def index(request):
             return redirect('/')
 
 def combined(request):
-    return render(request, 'combined.html')
+    def combine():
+        all_songs = Song.objects.all().order_by('averageVote')
+        chosen = [all_songs[len(all_songs)-1], all_songs[len(all_songs)-2], all_songs[len(all_songs)-3],
+        all_songs[len(all_songs)-4]]
+        return chosen
+
+    def setMelody():
+        a = AudioSegment.from_wav("core/notes/A.wav")
+        b = AudioSegment.from_wav("core/notes/B.wav")
+        c = AudioSegment.from_wav("core/notes/C.wav")
+        d = AudioSegment.from_wav("core/notes/D.wav")
+        e = AudioSegment.from_wav("core/notes/E.wav")
+        f = AudioSegment.from_wav("core/notes/F.wav")
+        g = AudioSegment.from_wav("core/notes/G.wav")
+        asharp = AudioSegment.from_wav("core/notes/Asharp.wav")  # Bb
+        dsharp = AudioSegment.from_wav("core/notes/Dsharp.wav")  # Eb
+        csharp = AudioSegment.from_wav("core/notes/Csharp.wav")
+        fsharp = AudioSegment.from_wav("core/notes/Fsharp.wav")
+        gsharp = AudioSegment.from_wav("core/notes/Gsharp.wav")
+        notesString = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'C#', 'D#', 'F#', 'G#', 'A#']
+        notes = [a, b, c, d, e, f, g, csharp, dsharp, fsharp, gsharp, asharp]
+        possTimes = [125, 250, 500, 750, 1000]
+        melody = []
+        for x in chosen:
+            melody.append(chosen[i].
+
+
+
+        melody = []
+        melodyString = []
+        for x in range(0, numNotes):
+            choice = random.randint(0, len(notesString) - 1)
+            melody.append(notes[choice])
+            melodyString.append(notesString[choice])
+        return melody, melodyString
+
+
+    return render(request, 'combined.html', {'message':'hello!'})
