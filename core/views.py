@@ -193,7 +193,7 @@ def combined(request):
         return render(request, 'combined.html', {'message': 'a nice song was generated', 'file_name': filename})
     #if Song.objects.all().count() >= 4:
     #    return combinetop4()
-    numTunes = 4
+    numTunes = 10
     if Song.objects.all().count() >= 1:
         return combineSquareRatio(numTunes)
     else:
