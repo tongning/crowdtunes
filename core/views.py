@@ -22,6 +22,13 @@ def download(request, filename):
             response = HttpResponse(fh.read(), content_type="application/vnd.ms-excel")
             response['Content-Disposition'] = 'inline; filename=' + os.path.basename(file_path)
             return response
+def downloadSong(request, filename):
+    file_path = 'core/static/combinedFiles/'+filename+'.wav'
+    if os.path.exists(file_path):
+        with open(file_path, 'rb') as fh:
+            response = HttpResponse(fh.read(), content_type="application/vnd.ms-excel")
+            response['Content-Disposition'] = 'inline; filename=' + os.path.basename(file_path)
+            return response
 
 
 
@@ -29,7 +36,7 @@ def index(request):
     if request.method == 'GET':
         oldSongs = glob.glob("core/static/tuneFiles/*.wav")
         songsNum = len(oldSongs)
-        if(songsNum<3):
+        if(songsNum<20):
             a = AudioSegment.from_wav("core/notes/A.wav")
             b = AudioSegment.from_wav("core/notes/B.wav")
             c = AudioSegment.from_wav("core/notes/C.wav")
@@ -79,7 +86,6 @@ def index(request):
 
             def exportMelody(melody,fileName):
                 melody.export("core/static/tuneFiles/%s" %fileName, format="wav")
-                melody.export("crowdtunes/staticfiles/%s" % fileName, format="wav")
 
             # Create your views here.
             fileName = makeFileName()
@@ -93,6 +99,7 @@ def index(request):
             request.session['filename'] = fileName
             # Create new song object and save in database
             newsong = Song.objects.create_song(fileName,melodyString)
+            newsong.songMelody = melodyNotes
             newsong.save()
             return render(request, 'index.html', {'file_name':fileName, 'string':str(melodyString),'form':form})
         else:
@@ -121,37 +128,16 @@ def combined(request):
         all_songs = Song.objects.all().order_by('averageVote')
         chosen = [all_songs[len(all_songs)-1], all_songs[len(all_songs)-2], all_songs[len(all_songs)-3],
         all_songs[len(all_songs)-4]]
-        return chosen
-
-    def setMelody():
-        a = AudioSegment.from_wav("core/notes/A.wav")
-        b = AudioSegment.from_wav("core/notes/B.wav")
-        c = AudioSegment.from_wav("core/notes/C.wav")
-        d = AudioSegment.from_wav("core/notes/D.wav")
-        e = AudioSegment.from_wav("core/notes/E.wav")
-        f = AudioSegment.from_wav("core/notes/F.wav")
-        g = AudioSegment.from_wav("core/notes/G.wav")
-        asharp = AudioSegment.from_wav("core/notes/Asharp.wav")  # Bb
-        dsharp = AudioSegment.from_wav("core/notes/Dsharp.wav")  # Eb
-        csharp = AudioSegment.from_wav("core/notes/Csharp.wav")
-        fsharp = AudioSegment.from_wav("core/notes/Fsharp.wav")
-        gsharp = AudioSegment.from_wav("core/notes/Gsharp.wav")
-        notesString = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'C#', 'D#', 'F#', 'G#', 'A#']
-        notes = [a, b, c, d, e, f, g, csharp, dsharp, fsharp, gsharp, asharp]
-        possTimes = [125, 250, 500, 750, 1000]
-        melody = []
-        for x in chosen:
-            melody.append(chosen[i].
-
-
-
-        melody = []
-        melodyString = []
-        for x in range(0, numNotes):
-            choice = random.randint(0, len(notesString) - 1)
-            melody.append(notes[choice])
-            melodyString.append(notesString[choice])
-        return melody, melodyString
-
-
-    return render(request, 'combined.html', {'message':'hello!'})
+        hello1 = AudioSegment.from_wav("core/static/tuneFiles/" + chosen[0].filename + ".wav")
+        hello2 = AudioSegment.from_wav("core/static/tuneFiles/" + chosen[1].filename + ".wav")
+        hello3 = AudioSegment.from_wav("core/static/tuneFiles/" + chosen[2].filename + ".wav")
+        hello4 = AudioSegment.from_wav("core/static/tuneFiles/" + chosen[3].filename + ".wav")
+        ultimateCombo = hello1 + hello2 + hello3 + hello4
+        filename = ("TheGlorious%r" % (random.randint(0,10000)) )
+        ultimateCombo.export("core/static/combinedFiles/%s" % filename, format="wav")
+        request.session['filename'] = filename
+        return render(request, 'combined.html', {'message': 'a song was generated', 'file_name': filename})
+    if Song.objects.all().count() >= 4:
+        return combine()
+    else:
+        return render(request, 'combined.html', {'message': 'hello!'})
