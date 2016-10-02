@@ -100,7 +100,7 @@ def index(request):
         song = melody[0][:times[0]]
         for i in range(1, len(melody)):
             if(i == len(melody)):
-                song += melody[i][:times[i]].fade_out(6000)
+                song += melody[i][:times[i]].fade_out(60000)
             else:
                 song += melody[i][:times[i]]
         return song
