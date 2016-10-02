@@ -70,12 +70,12 @@ def index(request):
         melody = []
         melodyString = []
         for x in range(0, numNotes):
-            choice = random.randint(-2, len(notesString)+1)
+            choice = random.randint(-3, len(notesString)+2)
             try:
                 if choice >= len(notesString):
-                    choice = random.randint(melody[i-1]-random.randint(1,2))
+                    choice = random.randint(melody[x-1-random.randint(1,2)])
                 elif (choice < 0):
-                    choice = random.randint(melody[i+1]+random.randint(1,2))
+                    choice = random.randint(melody[x-1+random.randint(1,2)])
             except:
                 choice = random.randint(0, len(notesString)-1)
             melody.append(notes[choice])
