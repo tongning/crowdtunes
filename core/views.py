@@ -110,8 +110,9 @@ def index(request):
             rating = form.cleaned_data['chosenScore']
             newvote = Vote(score=rating, song=song)
             newvote.save()
-            averageVote = (song.averageVote*song.dataPoints + song.score)/(song.dataPoints+1)
-            song.dataPoints = song.dataPoints + 1
+            numVotesOnThisSong = int(Vote.objects.filter(song=song).count())
+            song.averageVote = (song.averageVote*numVotesOnThisSong + int(newvote.score))/(numVotesOnThisSong+1)
+
             song.save()
             return redirect('/')
 
