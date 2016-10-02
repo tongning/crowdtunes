@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, HttpResponse, redirect
 import os
 import numpy as np
 import glob
@@ -9,15 +9,10 @@ from pydub import AudioSegment
 from django.utils.encoding import smart_str
 import pydub
 # Create your views here.
-from core.models import Song
+from core.models import Song, Vote
+from .forms import ScoreForm
 
-def score(request):
-    if request.method == 'POST':
-        form = ScoreForm(request.POST)
-        vote = Vote()
-        return render(request, 'gameplatform/message.html', {
-            'message': account_create_successful
-        })
+
 
 def download(request, filename):
     file_path = 'core/static/tuneFiles/'+filename+'.wav'
@@ -30,68 +25,81 @@ def download(request, filename):
 
 
 def index(request):
-    a = AudioSegment.from_wav("core/notes/A.wav")
-    b = AudioSegment.from_wav("core/notes/B.wav")
-    c = AudioSegment.from_wav("core/notes/C.wav")
-    d = AudioSegment.from_wav("core/notes/D.wav")
-    e = AudioSegment.from_wav("core/notes/E.wav")
-    f = AudioSegment.from_wav("core/notes/F.wav")
-    g = AudioSegment.from_wav("core/notes/G.wav")
-    asharp = AudioSegment.from_wav("core/notes/Asharp.wav")  # Bb
-    dsharp = AudioSegment.from_wav("core/notes/Dsharp.wav")  # Eb
-    csharp = AudioSegment.from_wav("core/notes/Csharp.wav")
-    fsharp = AudioSegment.from_wav("core/notes/Fsharp.wav")
-    gsharp = AudioSegment.from_wav("core/notes/Gsharp.wav")
-    notesString = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'C#', 'D#', 'F#', 'G#', 'A#']
-    notes = [a, b, c, d, e, f, g, csharp, dsharp, fsharp, gsharp, asharp]
-    possTimes = [125, 250, 500, 750, 1000]
+    if request.method == 'GET':
+        a = AudioSegment.from_wav("core/notes/A.wav")
+        b = AudioSegment.from_wav("core/notes/B.wav")
+        c = AudioSegment.from_wav("core/notes/C.wav")
+        d = AudioSegment.from_wav("core/notes/D.wav")
+        e = AudioSegment.from_wav("core/notes/E.wav")
+        f = AudioSegment.from_wav("core/notes/F.wav")
+        g = AudioSegment.from_wav("core/notes/G.wav")
+        asharp = AudioSegment.from_wav("core/notes/Asharp.wav")  # Bb
+        dsharp = AudioSegment.from_wav("core/notes/Dsharp.wav")  # Eb
+        csharp = AudioSegment.from_wav("core/notes/Csharp.wav")
+        fsharp = AudioSegment.from_wav("core/notes/Fsharp.wav")
+        gsharp = AudioSegment.from_wav("core/notes/Gsharp.wav")
+        notesString = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'C#', 'D#', 'F#', 'G#', 'A#']
+        notes = [a, b, c, d, e, f, g, csharp, dsharp, fsharp, gsharp, asharp]
+        possTimes = [125, 250, 500, 750, 1000]
 
 
-    def makeMelody(numNotes):
-        #idx = np.random.choice(np.arange(len(notes)), numNotes, replace=True)
-        #melody = notes[idx]
-        #melodyString = notesString[idx]
-        melody = []
-        melodyString = []
-        for x in range(0,numNotes):
-            choice = random.randint(0, len(notesString)-1)
-            melody.append(notes[choice])
-            melodyString.append(notesString[choice])
-        return melody, melodyString
+        def makeMelody(numNotes):
+            #idx = np.random.choice(np.arange(len(notes)), numNotes, replace=True)
+            #melody = notes[idx]
+            #melodyString = notesString[idx]
+            melody = []
+            melodyString = []
+            for x in range(0,numNotes):
+                choice = random.randint(0, len(notesString)-1)
+                melody.append(notes[choice])
+                melodyString.append(notesString[choice])
+            return melody, melodyString
 
-    def makeTimes(numNotes):
-        times = []
-        for x in range(0, numNotes):
-            times.append(random.choice(possTimes))
-        return times
+        def makeTimes(numNotes):
+            times = []
+            for x in range(0, numNotes):
+                times.append(random.choice(possTimes))
+            return times
 
-    def makeTimedMelody(melody, times):
-        song = melody[0][:times[0]]
-        for i in range(1, len(melody)):
-            song += melody[i][:times[i]]
-        return song
+        def makeTimedMelody(melody, times):
+            song = melody[0][:times[0]]
+            for i in range(1, len(melody)):
+                song += melody[i][:times[i]]
+            return song
 
-    def makeFileName():
-        oldSongs = glob.glob("core/static/tuneFiles/*.wav")
-        songsNum = len(oldSongs)
-        songcount = songsNum + 1
-        return "tune%d.wav" %songcount
+        def makeFileName():
+            oldSongs = glob.glob("core/static/tuneFiles/*.wav")
+            songsNum = len(oldSongs)
+            songcount = songsNum + 1
+            return "tune%d.wav" %songcount
 
-    def exportMelody(melody,fileName):
-        melody.export("core/static/tuneFiles/%s" %fileName, format="wav")
-        melody.export("crowdtunes/staticfiles/%s" % fileName, format="wav")
+        def exportMelody(melody,fileName):
+            melody.export("core/static/tuneFiles/%s" %fileName, format="wav")
+            melody.export("crowdtunes/staticfiles/%s" % fileName, format="wav")
 
-    # Create your views here.
-    fileName = makeFileName()
-    numNotes = 8
-    melodyNotes,melodyString = makeMelody(numNotes)
-    times = makeTimes(numNotes)
-    timedMelody = makeTimedMelody(melodyNotes, times)
-    exportMelody(timedMelody,fileName)
-    fileName = fileName[:-4]
-
-    # Create new song object and save in database
-    newsong = Song.objects.create_song(fileName,melodyString)
-    newsong.save()
-    return render(request, 'index.html', {'file_name':fileName, 'string':str(melodyString)})
+        # Create your views here.
+        fileName = makeFileName()
+        numNotes = 8
+        melodyNotes,melodyString = makeMelody(numNotes)
+        times = makeTimes(numNotes)
+        timedMelody = makeTimedMelody(melodyNotes, times)
+        exportMelody(timedMelody,fileName)
+        fileName = fileName[:-4]
+        form = ScoreForm()
+        request.session['filename'] = fileName
+        # Create new song object and save in database
+        newsong = Song.objects.create_song(fileName,melodyString)
+        newsong.save()
+        return render(request, 'index.html', {'file_name':fileName, 'string':str(melodyString),'form':form})
+    else:
+        form = ScoreForm(request.POST)
+        if form.is_valid():
+            filename_str = request.session['filename']
+            # Find the Song object attached to this filename
+            song = Song.objects.get(filename=filename_str)
+            # Create vote
+            rating = form.cleaned_data['chosenScore']
+            newvote = Vote(score=rating, song=song)
+            newvote.save()
+            return redirect('/')
 

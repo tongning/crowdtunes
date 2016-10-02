@@ -1,3 +1,5 @@
+
+{% load crispy_forms_tags %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,31 +21,6 @@
     </audio>
     <p>The string representing this melody is: {{ string }}</p>
 
-   <ul>
-    <li>
-        {{ myform.chosenScores.0 }}
-        <input type="radio" name="score" value="0" checked> 0 <br>
-    </li>
-    <li>
-        {{ myform.chosenScores.1 }}
-        <input type="radio" name="score" value="1"> 1 <br>
-    </li>
-       <li>
-        {{ myform.chosenScores.2 }}
-        <input type="radio" name="score" value="2"> 2 <br>
-    </li>
-       <li>
-        {{ myform.chosenScores.3 }}
-        <input type="radio" name="score" value="3"> 3 <br>
-    </li>
-       <li>
-        {{ myform.chosenScores.4 }}
-        <input type="radio" name="score" value="4"> 4 <br>
-    </li>
-       <li>
-        {{ myform.chosenScores.5 }}
-        <input type="radio" name="score" value="5"> 5 <br>
-    </li>
-</ul>
+    {% crispy form %}
 </body>
 </html>
