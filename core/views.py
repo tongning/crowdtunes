@@ -85,7 +85,15 @@ def index(request):
     def makeTimes(numNotes):
         times = []
         for x in range(0, numNotes):
-            times.append(random.choice(possTimes))
+            choice = random.int(-8, len(possTimes)+7)
+            try:
+                if choice >= len(possTimes):
+                    choice = random.randint(melody[x-1-random.randint(0,1)])
+                elif (choice < 0):
+                    choice = random.randint(melody[x-1+random.randint(0,1)])
+            except:
+                choice = random.randint(0, len(possTimes)-1)
+            times.append(possTimes[choice])
         return times
 
     def makeTimedMelody(melody, times):
