@@ -116,4 +116,4 @@ def index(request):
             return redirect('/')
 
 def combined(request):
-    render(request, 'combined.html')
+    return render(request, 'combined.html')
