@@ -99,11 +99,8 @@ def index(request):
     def makeTimedMelody(melody, times):
         song = melody[0][:times[0]]
         for i in range(1, len(melody)):
-            if(i == len(melody)):
-                song += melody[i][:times[i]].fade_out(60000)
-            else:
                 song += melody[i][:times[i]]
-        return song
+        return song.fade_out(3000)
 
     def makeFileName():
         oldSongs = glob.glob("core/static/tuneFiles/*.wav")
