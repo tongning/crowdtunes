@@ -16,4 +16,4 @@ class Song(models.Model):
 
 class Vote(models.Model):
     score = models.IntegerField(default=0)
-    song = models.OneToOneField(Song)
+    song = models.ForeignKey(Song)
