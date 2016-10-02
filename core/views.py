@@ -153,7 +153,8 @@ def index(request):
             while not os.path.exists("core/static/tuneFiles/tune%d.wav"%randsong):
                 randsong = randint(1, songsNum)
             request.session['filename'] = 'tune'+str(randsong)
-            return render(request, 'index.html', {'file_name':'tune'+str(randsong),'string':'Previously generated song: #%s'%str(randsong),'form':form})
+            return render(request, 'index.html', {'file_name':'tune'+str(randsong),
+            'string':'Previously generated song: #%s'%str(randsong),'form':form})
     else:
         form = ScoreForm(request.POST)
         if form.is_valid():
