@@ -22,6 +22,13 @@ def download(request, filename):
             response = HttpResponse(fh.read(), content_type="application/vnd.ms-excel")
             response['Content-Disposition'] = 'inline; filename=' + os.path.basename(file_path)
             return response
+def downloadSong(request, filename):
+    file_path = 'core/static/combinedFiles/'+filename+'.wav'
+    if os.path.exists(file_path):
+        with open(file_path, 'rb') as fh:
+            response = HttpResponse(fh.read(), content_type="application/vnd.ms-excel")
+            response['Content-Disposition'] = 'inline; filename=' + os.path.basename(file_path)
+            return response
 
 
 
@@ -112,7 +119,7 @@ def index(request):
             newvote = Vote(score=rating, song=song)
             newvote.save()
             numVotesOnThisSong = int(Vote.objects.filter(song=song).count())
-            song.averageVote = (song.averageVote*numVotesOnThisSong + int(newvote.score))/(numVotesOnThisSong+1)
+            song.averageVote = (song.averageVote*(numVotesOnThisSong-1) + int(newvote.score))/(numVotesOnThisSong)
 
             song.save()
             return redirect('/')
@@ -120,13 +127,24 @@ def index(request):
 def combined(request):
     def combine():
         all_songs = Song.objects.all().order_by('averageVote')
-        chosen = [all_songs[len(all_songs)-1], all_songs[len(all_songs)-2], all_songs[len(all_songs)-3]]#,
-        #all_songs[len(all_songs)-4]]
-        hello1 = AudioSegment.from_wav("core/static/tuneFiles/" + chosen[0].filename + ".wav")
-        hello2 = AudioSegment.from_wav("core/static/tuneFiles/" + chosen[1].filename + ".wave")
-        hello3 = AudioSegment.from_wav("core/static/tuneFiles/" + chosen[2].filename + ".wave")
-        #hello4 = AudioSegment.from_wav("core/static/tuneFiles/" + chosen[3].filename + ".wave")
-        ultimateCombo = hello1 + hello2 + hello3 #+ hello4
-        ultimateCombo.export("core/static/tuneFiles/ultimateCombo.wav" , format="wav")
-    combine()
-    return render(request, 'combined.html', {'message':'hello!','file_name':'ultimateCombo'})
+        chosen = [all_songs[len(all_songs)-1], all_songs[len(all_songs)-2], all_songs[len(all_songs)-3],
+        all_songs[len(all_songs)-4]]
+        hello = [AudioSegment.from_wav("core/static/tuneFiles/" + chosen[0].filename + ".wav"),
+        AudioSegment.from_wav("core/static/tuneFiles/" + chosen[1].filename + ".wav"),
+        AudioSegment.from_wav("core/static/tuneFiles/" + chosen[2].filename + ".wav"),
+        AudioSegment.from_wav("core/static/tuneFiles/" + chosen[3].filename + ".wav")]
+        pick = random.choice(hello)
+        ultimateCombo = random.choice(hello)
+        hello.remove(pick)
+        for values in hello:
+            pick = random.choice(hello)
+            ultimateCombo = ultimateCombo + pick
+            hello.remove(pick)
+        filename = ("TheGlorious%r" % (random.randint(0,10000)) )
+        ultimateCombo.export("core/static/combinedFiles/%s.wav" % filename, format="wav")
+        request.session['filename'] = filename
+        return render(request, 'combined.html', {'message': 'a song was generated', 'file_name': filename})
+    if Song.objects.all().count() >= 4:
+        return combine()
+    else:
+        return render(request, 'combined.html', {'message': 'hello!'})
