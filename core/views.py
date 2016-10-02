@@ -122,9 +122,10 @@ def index(request):
             form = ScoreForm()
             request.session['filename'] = fileName
             # Create new song object and save in database
-            newsong = Song.objects.create_song(fileName,melodyString)
-            newsong.songMelody = melodyNotes
-            newsong.save()
+            if Song.objects.filter(filename=fileName).count() <= 0:
+                newsong = Song.objects.create_song(fileName,melodyString)
+                newsong.songMelody = melodyNotes
+                newsong.save()
             return render(request, 'index.html', {'file_name':fileName, 'string':str(melodyString),'form':form})
         else:
             deleteOne = randint(1, 5)
