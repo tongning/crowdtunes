@@ -97,7 +97,7 @@ def index(request,useNotes = []):
 
     if request.method == 'GET':
         if useNotes != []:
-            
+
             return render(request, 'index.html', {'file_name': fileName, 'string': str(melodyString), 'form': form})
         elif songsNum<5:
             fileName = makeFileName()
