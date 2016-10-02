@@ -131,6 +131,6 @@ def combined(request):
         request.session['filename'] = filename
         return render(request, 'combined.html', {'message': 'hello!'}, {'file_name': filename})
     if Song.objects.all().count() >= 4:
-        combine()
+        return combine()
     else:
         return render(request, 'combined.html', {'message': 'hello!'})
