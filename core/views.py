@@ -60,8 +60,8 @@ def index(request):
     csharp = AudioSegment.from_wav("core/notes/Csharp.wav")
     fsharp = AudioSegment.from_wav("core/notes/Fsharp.wav")
     gsharp = AudioSegment.from_wav("core/notes/Gsharp.wav")
-    notesString = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'C#', 'D#', 'F#', 'G#', 'A#']
-    notes = [a, b, c, d, e, f, g, csharp, dsharp, fsharp, gsharp, asharp]
+    notesString = ['A', 'A#', 'B', 'C', 'C#''D', 'D#','E', 'F', 'F#','G', 'G#']
+    notes = [a,  asharp , b, c, csharp , d , dsharp , e , f, fsharp, g, gsharp]
     possTimes = [125, 250, 500, 750, 1000]
     oldSongs = glob.glob("core/static/tuneFiles/*.wav")
     songsNum = len(oldSongs)
@@ -70,7 +70,14 @@ def index(request):
         melody = []
         melodyString = []
         for x in range(0, numNotes):
-            choice = random.randint(0, len(notesString) - 1)
+            choice = random.randint(-2, len(notesString)+1)
+            try:
+                if choice >= len(notesString):
+                    choice = random.randint(melody[i-1]-random.randint(1,2))
+                elif (choice < 0):
+                    choice = random.randint(melody[i+1]+random.randint(1,2))
+            except:
+                choice = random.randint(0, len(notesString)-1)
             melody.append(notes[choice])
             melodyString.append(notesString[choice])
         return melody, melodyString
