@@ -9,6 +9,7 @@ scoreChoices = ((0, '0'),
                 (3, '3'),
                 (4, '4'),
                 (5, '5'),)
+
 class ScoreForm(forms.Form):
     chosenScore = forms.ChoiceField(label='How would you rate this?',
                                     choices=scoreChoices)
@@ -17,7 +18,6 @@ class ScoreForm(forms.Form):
         super(ScoreForm, self).__init__(*args, **kwargs)
         self.helper = FormHelper()
         self.helper.layout = Layout(
-
 
             InlineRadios('chosenScore'),
 
